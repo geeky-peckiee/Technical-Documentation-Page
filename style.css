@@ -1,0 +1,185 @@
+@media only screen and (max-width: 1000px){
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        width: 100%;
+        height: 100%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    #main-doc {
+        width: 100%;
+        height: 100%;
+       
+    }
+    .section {
+        width: 100%;
+        height: 100%;
+        
+    }
+    .main-section {
+        padding: 1.5em;
+        background-color: rgba(255, 255, 255, 0.5);
+        
+    }
+    h2 {
+        font-size: 2.1em;
+        font-weight: 100;
+        padding: 0.3em 0;
+    }
+    p {
+        line-height: 1.4rem;
+        margin: 0.8em 0;
+        text-align: justify;
+        font-weight: 100;
+        color: rgba(0, 0, 0, 0.65);
+        margin-left: 2em;
+        font-size: 0.95em;
+    }
+    ul > li {
+        line-height: 1.4rem;
+        margin: 0.8em 0;
+        text-align: justify;
+        font-weight: 100;
+        color: rgba(0, 0, 0, 0.65);
+        margin-left: 6em;
+        font-size: 0.95em;
+    }
+    code {
+        line-height: 2em;
+        margin: 1em 0;
+        font-weight: 100;
+        width: 80%;
+        text-align: justify;
+        color: rgba(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.05);
+        margin-left: 6em;
+        font-size: 0.95em;
+        padding: 1em;
+        display: block;
+    }
+    h1 {
+        text-align: center;
+        margin-bottom: 1em;
+        padding: 1em;
+    }
+    #navbar {
+        
+        width: 100%;
+        height: 20em;
+        top: 0px;
+        left: 0px;
+        
+    }
+    .links {
+        overflow-y: scroll;
+        scroll-behavior: auto;
+        width: 100%;
+        height: 15em;
+        top: 0px;
+        left: 0px;
+        border-top: 1px solid black;
+        border-bottom: 3px solid black;
+    }
+    div > a {
+        display: block;
+        border-top: 1px solid black;
+        text-decoration: none;
+        position: relative;
+        padding: 1em;
+        color:rgba(0, 0, 0, 0.65);
+    }
+}
+
+@media only screen and (min-width: 1001px){
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        width: 100%;
+        height: 100%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    #main-doc {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr 80em;
+        align-items: start;
+        gap: 10px;
+        
+    }
+    .section {
+        width: 80%;
+        height: 100%;
+        
+    }
+    .main-section {
+        padding: 1.5em;
+        background-color: rgba(255, 255, 255, 0.5);
+        
+    }
+    h2 {
+        font-size: 2.1em;
+        font-weight: 100;
+        padding: 0.3em 0;
+    }
+    p {
+        line-height: 1.4rem;
+        margin: 0.8em 0;
+        text-align: justify;
+        font-weight: 100;
+        color: rgba(0, 0, 0, 0.65);
+        margin-left: 2em;
+        font-size: 0.95em;
+    }
+    ul > li {
+        line-height: 1.4rem;
+        margin: 0.8em 0;
+        text-align: justify;
+        font-weight: 100;
+        color: rgba(0, 0, 0, 0.65);
+        margin-left: 6em;
+        font-size: 0.95em;
+    }
+    code {
+        line-height: 2em;
+        margin: 1em 0;
+        font-weight: 100;
+        width: 80%;
+        text-align: justify;
+        color: rgba(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.05);
+        margin-left: 6em;
+        font-size: 0.95em;
+        padding: 1em;
+        display: block;
+    }
+    h1 {
+        text-align: center;
+        margin-bottom: 1em;
+        padding: 1em;
+    }
+    #navbar {
+        border-right: 2px solid rgb(90, 89, 89);
+        width: 20em;
+        height: 45em;
+        position: sticky;
+        top: 0px;
+        left: 0px;
+    }
+    
+    div > a {
+        display: block;
+        border-top: 1px solid black;
+        text-decoration: none;
+        padding: 0.7em 0 0.6em 2em;
+        color:rgba(0, 0, 0, 0.65);
+    }
+    
+    
+}
